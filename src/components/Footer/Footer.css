@@ -1,0 +1,13 @@
+#footer{
+    background-color: #F63E7B;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    color: #aa8993;
+}
