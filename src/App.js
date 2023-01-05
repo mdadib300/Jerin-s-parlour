@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Main from './components/Main/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home/Home';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       children: [
         {
           path: '/',
-          element: <h2>Full page</h2>
+          element: <Home></Home>
         },
         {
           path: '/login',

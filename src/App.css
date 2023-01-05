@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.custom-btn{
+  background-color: #F63E7B;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
