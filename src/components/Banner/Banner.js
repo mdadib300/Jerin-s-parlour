@@ -1,12 +1,13 @@
 import React from 'react';
 import bannerImage from '../../assets/banner-image.png';
+import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='my-3 my-md-5 d-md-flex flex-row-reverse justify-content-around align-items-center'>
-            <img src={bannerImage} className='img-fluid px-3 pb-3' alt='banner'></img>
-            <div className='mx-3 mx-md-0'>
-                <h1>BEAUTY SALON<br />FOR EVERY WOMEN</h1>
+        <div id='banner' className='p-3 p-md-5 d-lg-flex flex-row-reverse justify-content-around align-items-center'>
+            <img src={bannerImage} className='img-fluid pb-3 pb-lg-0' alt='banner'></img>
+            <div>
+                <h1><b>BEAUTY SALON<br />FOR EVERY WOMEN</b></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit. Purus commodo ipsum duis<br />laoreet maecenas. Feugiat </p>
                 <button className='custom-btn'>Get an Appointment</button>
             </div>

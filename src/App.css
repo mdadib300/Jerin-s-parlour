@@ -10,6 +10,14 @@
   color: white;
 }
 
+.custom-btn:hover{
+  background-color: #ec6290;
+}
+
+.p-text{
+  color: #F63E7B;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
