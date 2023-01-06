@@ -3,21 +3,22 @@ import './App.css';
 import Main from './components/Main/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
 
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <Main></Main>,
+      element: <Main />,
       children: [
         {
           path: '/',
-          element: <Home></Home>
+          element: <Home />
         },
         {
-          path: '/login',
-          element: <h2>Login page</h2>
+          path: '/*',
+          element: <NotFound />
         }
       ]
     }

@@ -1,3 +1,3 @@
 # JERIN'S PARLOUR
 An e-commerce landing page.
-Techs are being used: React, React Router, React-Bootstrap, Bootstrap icons etc.
+Made with: HTML, CSS, Bootstrap, React, React Router, React-Bootstrap and Bootstrap Icons.
