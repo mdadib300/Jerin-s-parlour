@@ -1,6 +1,8 @@
 #footer{
     background-color: #F63E7B;
     color: white;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .link{

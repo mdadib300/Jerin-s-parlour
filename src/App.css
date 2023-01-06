@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.p-width{
+  max-width: 1440px;
+  margin: auto;
+}
+
 .custom-btn{
   background-color: #F63E7B;
   padding: 10px 30px 10px 30px;

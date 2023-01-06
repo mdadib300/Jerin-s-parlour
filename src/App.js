@@ -24,7 +24,7 @@ function App() {
   ]);
 
   return (
-    <div>
+    <div className='p-width'>
       <RouterProvider router={router} />
     </div>
   );
